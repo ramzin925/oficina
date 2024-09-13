@@ -1,0 +1,68 @@
+*{
+    background-color: white !important;
+}
+
+.cabecalho .nav {
+    justify-content: flex-end !important; 
+}
+
+nav, a {
+    background-color: rgb(189, 161, 161) !important;
+}
+
+.justify-content-center{
+    padding: 10px;
+    font-size: 20px;
+    background-color: black;
+}
+
+.container-informacoes{
+    padding: 30px;
+    background-color: aliceblue !important;
+}
+
+.container-informacoes p{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    font-size: 17px;
+    background-color: aliceblue !important;
+}
+
+.localizacao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    background-color: aliceblue !important;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff5e01 !important;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #b30000 !important;
+}
+
+
+/* Card */
+
+.cards-servicos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh; /* O container terá a altura de 100% da viewport */
+}
+
+.card {
+    width: 40% !important;
+    height: 50% !important;
+    text-align: center;
+}
