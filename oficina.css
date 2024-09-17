@@ -62,7 +62,14 @@ button:hover {
 }
 
 .card {
-    width: 40% !important;
+    width: 20% !important;
     height: 50% !important;
     text-align: center;
+}
+
+.texto-menor{
+    font-size: 20px !important;
+    text-align: left;
+    padding: 5px;  
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
